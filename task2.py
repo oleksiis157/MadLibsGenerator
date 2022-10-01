@@ -1,16 +1,6 @@
 #Write a simple function that calculates price of the door.
-  #Function should take 2 parameters: height and width, and return price of the door.
- 
-  #Price calculation:
- 
 
 
-
-#classical = "classical door"
-#door = input("""Input your door:
-#(classical, triangle, square)""")
-
-#def my_doore(type):
 price = float(1.57)
 type_doore = input("Input type of door (classical, triangle, circle): ")
 if (type_doore == "classical"):     
@@ -23,7 +13,7 @@ elif (type_doore == "triangle"):
       b = float(input("Input 2nd side: "))
       c = float(input("Input 3st side: "))
       p_triangle = (a+b+c)/2
-      s_triangle = p_triangle*(p_triangle-a)*(p_triangle-b)*(p_triangle-c)
+      s_triangle = p_triangle*(p_triangle-a)(p_triangle-b)(p_triangle-c)
       print(s_triangle)
       print("The sum of your triangle door = ", s_triangle*price,"$")
 elif (type_doore == "circle"):
