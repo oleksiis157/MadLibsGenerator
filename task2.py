@@ -1,4 +1,5 @@
 #Write a simple function that calculates price of the door.
+# New code that will be added to master branch when Pull Requst will be accepted
 
 
 price = float(1.57)
